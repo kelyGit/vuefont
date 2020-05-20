@@ -19,7 +19,7 @@
   </div>
 
   <!-- PC 端头部 -->
-  <!--<header class="header hidden_xs clearfix">-->
+  <!--<headerBody class="headerBody hidden_xs clearfix">-->
     <!--<div class="wrap clearfix">-->
       <!--<div class="logo fl">-->
         <!--<a href="index.html" class="clearfix">-->
@@ -66,7 +66,7 @@
         <!--</ul>-->
       <!--</div>-->
     <!--</nav>-->
-  <!--</header>-->
+  <!--</headerBody>-->
   <!-- 头部结束 -->
 
 
