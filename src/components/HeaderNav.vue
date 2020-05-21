@@ -97,7 +97,6 @@
        </div>
      </div>
    </div>
-
    <!-- 手机版结束 -->
 
    <!-- =======================以上为公共头部 ======================  -->
@@ -105,7 +104,7 @@
 </template>
 
 <script>
-  // import $, from 'jquery';
+  import $ from 'jquery';
   export default {
     name: 'HeaderNav',
     components: {
