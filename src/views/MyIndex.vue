@@ -1,112 +1,5 @@
 <template>
   <div>
-  <!--&lt;!&ndash;[if lt IE9]>-->
- <!--<script type="text/javascript" src="images/js/html5.js"></script>-->
-  <!--<![endif]&ndash;&gt;-->
-
-  <!-- 头部开始-->
-  <div class="top">
-    <div class="topbar wrap clearfix">
-      <div class="topbar-l fl">
-        &nbsp; &nbsp;您好，欢迎来到中润泰兴新型建材有限公司！
-      </div>
-      <div class="topbar-r hidden_xs fr">
-        <a href="javascript:;">加入收藏</a>
-        <!--<a href="book.html">在线留言</a>-->
-        <a href="lxwm.html">联系我们</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- PC 端头部 -->
-  <!--<headerBody class="headerBody hidden_xs clearfix">-->
-    <!--<div class="wrap clearfix">-->
-      <!--<div class="logo fl">-->
-        <!--<a href="index.html" class="clearfix">-->
-          <!--<div class="logoimg fl"><img src="images/logo1.png" alt="中润泰兴新型建材有限公司" width="130px" height="79px" ></div>-->
-          <!--<div class="company_name fl">-->
-            <!--<p class="company_name_title">中润泰兴新型建材有限公司</p>-->
-            <!--<p class="company_name_ps">一体化低碳建材</p>-->
-          <!--</div>-->
-        <!--</a>-->
-      <!--</div>-->
-      <!--<div class="tel fr">-->
-        <!--<p class="top_number_ps">服务热线：</p>-->
-        <!--<p class="top_number">15012652898 / 13530896586</p>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; pc版导航 &ndash;&gt;-->
-    <!--<nav class="nav  clearfix">-->
-      <!--<div class="menu wrap">-->
-        <!--<ul>-->
-          <!--<li class="mainlevel">-->
-            <!--<a href="onepage.html">公  司  简  介</a>-->
-
-          <!--</li>-->
-          <!--<span>|</span>-->
-          <!--<li class="mainlevel">-->
-            <!--<a href="list_cp.html">产  品  介 绍</a>-->
-
-          <!--</li>-->
-          <!--<span>|</span>-->
-          <!--<li class="mainlevel">-->
-            <!--<a href="msg_case.html">施  工  工 艺</a>-->
-
-          <!--</li>-->
-          <!--<span>|</span>-->
-          <!--<li class="mainlevel">-->
-            <!--<a href="list_case.html">工  程  案 例</a>-->
-
-          <!--</li>-->
-          <!--<span>|</span>-->
-          <!--<li class="mainlevel li-last">-->
-            <!--<a href="lxwm.html">联系我们</a>-->
-
-          <!--</li>-->
-        <!--</ul>-->
-      <!--</div>-->
-    <!--</nav>-->
-  <!--</headerBody>-->
-  <!-- 头部结束 -->
-
-
-  <!-- 手机版导航 -->
-  <div class="phone_nav hidden_lg">
-    <div class="headDiv">
-      <div class="headDivcon wrap">
-        <a href="javascript:;" class="logo" style="cursor: default;"><img src="images/logo1.png"></a>
-        <a href="javascript:;" class="navIco"><img src="images/navico.png"></a>
-      </div>  <!-- wal -->
-    </div>
-    <div class="navLayer" style="right: -100%; width: 0px;">
-      <div class="bg">
-        <a href="javascript:;" class="closeBtn"></a>
-        <div class="top">
-          <a href="javascript:;" class="logo"><img src="images/logo1.png"></a>
-        </div>
-        <div class="sideNav">
-          <div class="navContent">
-            <a href="javascript:;" class="back"><img src="images/nimg16_2.png"></a>
-            <ul>
-              <li><a href="index.html" target="_blank">走进中润泰兴新型建材有限公司</a></li>
-              <li><a href="onepage.html" target="_blank">公司简介</a></li>
-              <li><a href="list_cp.html" target="_blank">产品介绍</a></li>
-              <li><a href="msg_case.html" target="_blank">施工工艺</a></li>
-              <li><a href="list_case.html" target="_blank">工程案例</a></li>
-              <li><a href="lxwm.html" target="_blank">联系我们</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 手机版结束 -->
-
-  <!-- =======================以上为公共头部 ======================  -->
-
-
   <!--<link href="images/css/index.css" rel="stylesheet" type="text/css">-->
   <!--<script src="images/js/jquery.SuperSlide.2.1.1.js"></script>-->
   <!-- pc轮播图开始-->
@@ -145,22 +38,6 @@
 
   <!-- 轮播图结束 -->
 
-  <!--
-  <div class="search">
-      <div class="wrap clearfix">
-          <div class="leftkeywords fl" >大家都在搜：<a href="javascript:;">隔音砂浆</a>|<a href="javascript:;">隔音砂浆配方</a> |<a href="javascript:;">隔音砂浆厂家</a>
-          <div class="search-form fr">
-              <form name="formsearch" action="">
-                  <input name="mid" value="1" type="hidden">
-                  <input name="dopost" value="search" type="hidden">
-                  <input name="q" class="keywords" placeholder="请输入关键字搜索" maxlength="20" type="text">
-                  <input name="submit" value="" class="search_btn abs" type="submit">
-              </form>
-          </div>
-      </div>
-  </div>
-
-  -->
 
   <div class="news">
     <div class="wrap clearfix">
@@ -184,12 +61,6 @@
 
             <div class="col-md-6">
               <div class="choose-us-content">
-
-                <!--
-                <div class="button pull-right">
-                 <a href="#">更多新闻  <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-            </div>
-             -->
                 <ul>
                   <li>
 
@@ -315,90 +186,43 @@
 
     </div>
   </div>
-    <!--<script src="images/js/index.js"></script>-->
-   <!-- ===============================以下为公共底部 ======================-->
-  <!--footer start-->
-  <!--<footer class="footer">-->
-    <!--<div class="footer_top wrap clearfix">-->
-      <!--&lt;!&ndash;  <a href="javascript:;" class="friend-ico"><img src="images/footer_logo1.jpg" alt=""></a>  &ndash;&gt;-->
-      <!--<a href="javascript:;" class="friend-ico"><img src="images/footer_logo2.jpg" alt=""></a>-->
-      <!--<div class="top_right fr">-->
-        <!--<ul>-->
-          <!--<li><a href="javascript:;">OA系统</a></li>-->
-          <!--<span>|</span>-->
-          <!--<li><a href="javascript:;">法律声明</a></li>-->
-          <!--<span>|</span>-->
-          <!--<li><a href="javascript:;">隐私保护</a></li>-->
-          <!--<span>|</span>-->
-          <!--<li><a href="javascript:;">联系我们</a></li>-->
-          <!--<span>|</span>-->
-          <!--<li><a href="javascript:;">站长统计</a></li>-->
-          <!--<span>|</span>-->
-          <!--<li><a href="javascript:;">360安全联盟</a></li>-->
-        <!--</ul>-->
-        <!--<p>版权所有 <a href="http://www.beian.miit.gov.cn">粤ICP备19018833号-1</a></p>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!--<div class="footer_bottom">-->
-      <!--<div class="wrap clearfix">-->
-        <!--<div class="bottom_left">-->
-          <!--<div class="footer_logo table_box">-->
-            <!--<div class="table_cell">-->
-              <!--<img src="images/logo1.png" alt=""/>-->
-            <!--</div>-->
-          <!--</div>-->
-
-          <!--<div class="company_info">-->
-            <!--中润泰兴新型建材有限公司<br>-->
-            <!--联系人：彭先生<br>-->
-            <!--电话：15012652898  13530896586 <br>-->
-            <!--邮箱：408123258@qq.com<br>-->
-            <!--网址：<a href ="http://www.kingzao.cn/h5Index/" style="color:#ffffff;">http://www.kingzao.cn/h5Index/</a><br>-->
-            <!--地址：深圳市坪山新区坑梓街道乌石路46号   <br>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--<div class="bottom_right">-->
-          <!--&lt;!&ndash;-->
-                      <!--<div class="imgbox">-->
-                          <!--<img src="images/ma1.jpg" alt="" />-->
-                          <!--<p>扫码访问手机版</p>-->
-                      <!--</div>-->
-                      <!--<div class="imgbox">-->
-                          <!--<img src="images/ma1.jpg" alt="" />-->
-                          <!--<p>扫码访问手机版</p>-->
-                      <!--</div>-->
-                          <!--&ndash;&gt;-->
-        <!--</div>-->
-
-      <!--</div>-->
-    <!--</div>-->
-  <!--</footer>-->
-
-
-  <!--公共侧边栏-->
-  <div class="toolbar" style="background-color:#4C8FB6;padding:10px 5px;" >
-    <a href="http://www.kingzao.cn/h5Index/lxwm.html" style="display:block; color:#FFFFFF;">
-      <!--<a href="javascript:scroll(0,0)" id="top" class="toolbar-item toolbar-item-top">111111</a>-->
-      <!--<a href="tencent://message/?uin=285772998&Site=企业网站&Menu=yes" class="toolbar-item toolbar-item-feedback">222222</a>-->
-      <!--<a href="http://www.kingzao.cn/h5Index/lxwm.html" class="toolbar-item toolbar-item-app"><span class="toolbar-layer"></span></a>-->
-      <p>联系电话：<br/>
-        15012652898<br/>
-        13530896586
-      </p>
-
-      <!--<img src="images/fix_hover.png" />-->
-    </a>
-  </div>
-  <!--公共侧边栏 end-->
+    <remote-js src="../assets/js/jquery.SuperSlide.2.1.1.js"></remote-js>
+    <remote-js src="../assets/js/index.js"></remote-js>
+    <remote-js src="../assets/js/TouchSlide.1.1.js"></remote-js>
+    <remote-js src="../assets/js/js.js"></remote-js>
 </div>
 </template>
 
 <script>
+  // import superSlide from '../assets/js/jquery.SuperSlide.2.1.1.js';
+
+  // 方法一 添加<script> 到body
+  // const oScript = document.createElement('script');
+  // oScript.type = 'text/javascript';
+  // oScript.src = '../assets/js/jquery.SuperSlide.2.1.1.js';
+  // document.body.appendChild(oScript);
+
+
 export default{
   name: 'index',
+  mounted() {
+    // new superSlide();
+  },
+  components: {
+    'remote-js': {
+      render(createElement) {
+        return createElement('script', { attrs: { type: 'text/javascript', src: this.src } });
+      },
+      props: {
+        src: { type: String, required: true },
+      },
+    },
+  },
 };
 </script>
 
 <style scoped>
-
+@import "../assets/css/index.css";
+@import "../assets/css/common.css";
+@import "../assets/css/banner.css";
 </style>

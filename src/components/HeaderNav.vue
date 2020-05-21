@@ -105,12 +105,55 @@
 </template>
 
 <script>
-  // import * as _js from  '_js';
+  // import $, from 'jquery';
   export default {
-    name: 'header',
+    name: 'HeaderNav',
+    components: {
+      $,
+    },
+    created() {
+      $('.navIco').click(this.navIcoClick);
+      $('.navLayer').find('.closeBtn').click(this.navLayerCloseBtn);
+      $('.subNav1').click(this.navContentBack);
+
+      $('.navContent').find('.back').click();
+      $('.sideNav').find('li').each(function (i) {
+        if ($(this).find('.list').length > 0) {
+          $('.sideNav').find('li').eq(i).find('a:first').click(this.sideNav(i));
+        }
+      });
+    },
+    methods: {
+      navIcoClick: function () {
+        $(this).next('.navContent').show();
+        $('.subNav1').hide();
+        $('.subNav2').hide();
+      },
+      navLayerCloseBtn: function () {
+        $('.navLayer').animate({right: '100%',width:0}, 500);
+        $('.subNav1').removeClass('currentDt');
+        $('.pageBg2').fadeOut(500);
+      },
+      navContentBack: function () {
+        $('.navContent').hide();
+        $('.subNav1').show();
+        $('.subNav2').show();
+      },
+      sideNav: function (i) {
+        if ($(this).hasClass('aNow')) {
+          $(this).removeClass('aNow');
+          $('.sideNav').find('li').eq(i).find('.list').slideUp(300);
+        } else {
+          $('.sideNav').find('a').removeClass('aNow');
+          $('.sideNav').find('.list').slideUp(500);
+          $(this).addClass('aNow');
+          $('.sideNav').find('li').eq(i).find('.list').slideToggle(300);
+        }
+      },
+    },
   };
 </script>
 
 <style scoped>
-
+  @import "../assets/css/common.css";
 </style>

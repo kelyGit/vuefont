@@ -1,12 +1,19 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
+import $ from 'jquery';
+
+// 绝对进口应先于相对进口
+// 使用  //element-ui的全部组件
+import ElementUI from 'element-ui';
+// element-ui的css
+import 'element-ui/lib/theme-chalk/index.css';
+
+
 import App from './App';
 import router from './router';
 
-// 使用  //element-ui的全部组件
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';  // element-ui的css
+
 Vue.use(ElementUI); // 使用elementUI
 // import $ from 'jquery';
 
@@ -16,6 +23,6 @@ Vue.config.productionTip = false;
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: { App, $ },
   template: '<App/>',
 });

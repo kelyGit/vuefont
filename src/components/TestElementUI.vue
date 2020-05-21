@@ -25,7 +25,7 @@
     },
     methods: {
       handleSelect(key, keyPath) {
-        console.log(key, keyPath);
+        window.console.log(key, keyPath);
       },
     },
   };

@@ -1,12 +1,9 @@
 <template>
   <div id="app">
-    <el-container  v-if="$route.meta.keepAlive">
-      <el-headerBody>
-        <!-- 导航栏 -->
-        <header-nav></header-nav>
-      </el-headerBody>
-      <Test></Test>
+    <headerNav id="headerNav" ></headerNav>
+      <!--<Test></Test>-->
       <!--中间主要内容-->
+      <router-view></router-view>
       <!--<el-container>-->
         <!--<el-aside width="250px">-->
           <!--&lt;!&ndash; 侧边栏 &ndash;&gt;-->
@@ -14,53 +11,46 @@
         <!--</el-aside>-->
         <!--<el-main>-->
           <!--&lt;!&ndash; Body &ndash;&gt;-->
-          <!--<router-view></router-view>-->
         <!--</el-main>-->
 
       <!--</el-container>-->
 
       <!--脚部公共部分的-->
-      <!--<el-footer>-->
-        <!--&lt;!&ndash; 导航栏 &ndash;&gt;-->
-        <!--<footer-nav></footer-nav>-->
-      <!--</el-footer>-->
-
-    </el-container>
+    <footerNav ></footerNav>
   </div>
 </template>
 
 <script>
   // 公共头部
-  import headerBody from './components/Header';
+  import headerBody from './components/HeaderNav';
   // 公共左侧导航烂
   // import left from './components/LeftNav';
   // // 公共尾部
-  // import footer from './components/Footer';
-  import TestElementUI from './components/TestElementUI';
+  import footerBody from './components/footerNav';
+  // import TestElementUI from './components/TestElementUI';
 
 export default {
   name: 'App',
   components: {
     headerNav: headerBody,
-    Test: TestElementUI,
-    // leftNav: left,
-    // footerNav: footer,
+    footerNav: footerBody,
   },
 };
 </script>
 
 <style scoped >
-  /*@import "./assets/images/css/common.css";*/
+  /*@import "./assets/css/common.css";*/
+
   /*@import "./assets/images/css/banner.css";*/
   /*@import "./assets/css/style.css";*/
   /*@import "./assets/css/base.css";*/
-
+  body, div, p, img, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote { padding: 0px; margin: 0px; outline: 0px none; }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  /*text-align: center;*/
+  /*color: #2c3e50;*/
+  /*margin-top: 60px;*/
 }
 </style>

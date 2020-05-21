@@ -1,0 +1,58 @@
+
+/*头部*/
+.top { width: 100%; height: 28px; line-height: 28px; background-color: #c9c9c9; }
+.top .topbar { text-align: right; margin: 0px auto;color: #6b6b6b; }
+.top .topbar .topbar-l { padding-left: 40px; }
+.top .topbar .topbar-r a{ color: #6b6b6b;padding:0 10px;}
+.top .topbar .topbar-r a:not(:last-child){border-right: 1px solid #6b6b6b; }
+.header .tel{margin-top: 15px;padding-left:60px;background: url(../images/common/icon_tel.png) no-repeat left center; }
+.company_name{ margin-left: 10px;padding-left: 20px;background: url(../images/common/logo_line.png) no-repeat left center;}
+.company_name_title{font-size: 24px;color: #00a0e9;font-weight: bold;}
+.company_name_ps,.top_number_ps{font-size: 16px;color: #6b6b6b;line-height: 18px;}
+.top_number{font-size: 24px;line-height: 32px; font-weight: bold;color: #d81e06;}
+.header .nav{height: 50px;line-height: 50px;}
+.top a { color: rgb(238, 238, 238); }
+.top a:hover { color: rgb(255, 255, 255); }
+.header { width: 100%;background: rgba(0, 0, 0, 0) -moz-linear-gradient(center bottom , rgb(249, 248, 248), rgb(241, 241, 241)) repeat scroll 0% 0%; }
+.header .logo {  float: left; margin-top: 15px; }
+.header .logo a { display: block; }
+.header .tel { color: rgb(159, 159, 159); }
+.tel a { margin-right: 15px; padding-left: 20px; background-position: -182px -43px; color: rgb(159, 159, 159); }
+.tel span { margin-left: 15px; background-position: -188px 0px; padding: 0px 0px 0px 15px; color: rgb(255, 0, 0); font-weight: bold; }
+.header .nav { background: #00a0e9; width: 100%; position: relative; }
+.header .menu ul {width:100%;position: relative; display: -webkit-box;display: -moz-box;  display: -ms-flexbox;  display: -webkit-flex;display: flex;  }
+.header .menu ul li {-webkit-box-flex: 1;-moz-box-flex: 1;-webkit-flex: 1; -ms-flex: 1; flex: 1;   height: 50px; line-height:50px; display: inline-block; text-align: center; }
+.header .menu ul span { display: inline-block; height: 50px; width: 1px; line-height: 50px; color: #ffffff; float: left; }
+.header .menu ul li a { font-weight: bolder;color: #ffffff; height: 29px; line-height: 29px; font-size: 18px; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3); }
+.header .menu ul>li>a{display: inline-block; height: 50px; line-height: 50px; }
+.header .menu ul li a:hover { color: yellow; }
+.header .menu ul li a.selected { color: yellow; }
+.header .mainlevel em { position: absolute; top: -7px; left: 15px; display: block; width: 22px; height: 16px; background: rgba(0, 0, 0, 0) url("../images/common/common.png") no-repeat scroll -79px -23px; }
+.header .mainlevel .menuitem2 em { left: 160px; }
+.header .mainlevel .menuitem3 em { left: 302px; }
+.header .mainlevel .menuitem4 em { left: 443px; }
+.header .mainlevel .menuitem5 em { left: 586px; }
+.header .mainlevel .menuitem6 em { left: 730px; }
+.header .mainlevel .menuitem7 em { left: 385px; }
+.header .mainlevel .menuitem8 em { left: 297px; }
+.header .mainlevel .menuitem9 em { left: 440px; }
+.header .submenu { position: absolute; z-index: 100; display: none; width: auto; height: 260px; }
+.header .menuitem1 { left: 0px; }
+.header .menuitem2 { left: 0px; }
+.header .menuitem3 { left: 0px; }
+.header .menuitem4 { left: 0px; }
+.header .menuitem5 { left: 0px; }
+.header .menuitem6 { left: 0px; }
+.header .menuitem7 { right: 0px; }
+.header .menuitem8 { right: 0px; }
+.header .menuitem9 { right: 0px; }
+.header .submenu .sub-left { width: 9px; height: 260px; float: left; background: rgba(0, 0, 0, 0) url("../images/common/menulist_l.png") repeat scroll 0% 0%; }
+.header .submenu .sub-right { width: 9px; height: 260px; float: left; background: rgba(0, 0, 0, 0) url("../images/common/menulist_r.png") repeat scroll 0% 0%; }
+.header .submenu .sub-center { padding-top: 45px; height: 215px; width: auto; float: left; background: rgba(0, 0, 0, 0) url("../images/common/menulist_c.png") repeat-x scroll 0% 0%; }
+.header .submenu dl { float: left; margin-top: 0px; padding: 0px 0px 0px 40px; width: 190px; min-height: 140px;     max-height: 180px;overflow: auto; border-left: 1px solid rgb(204, 204, 204); text-align: left; }
+.header .submenu dl:first-child { border: medium none; }
+.header .submenu dl dt a { font-size: 14px; color: rgb(85, 85, 85); margin-bottom: 2px; text-shadow: none; transition-duration: 0.5s; }
+.header .submenu dl dt a:hover { color: #00a0e9; }
+.header .submenu dl dd { margin-top: 10px; }
+.header .submenu dl dd a { padding-left: 10px; font-size: 12px; color: rgb(137, 136, 136); background: rgba(0, 0, 0, 0) url("../images/common/dot.jpg") no-repeat scroll 1px center; transition: all 0.2s ease 0s; text-shadow: none; height: 16px; line-height: 16px; }
+.header .submenu dl dd a:hover { background: rgba(0, 0, 0, 0) url("../images/common/dot_h.jpg") no-repeat scroll 1px center; color: #00a0e9; padding-left: 15px; }
