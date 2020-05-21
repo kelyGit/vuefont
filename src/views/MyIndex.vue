@@ -9,9 +9,9 @@
     </div>
     <div class="bd">
       <ul>
-        <li><a href="javascript:;"><img src="images/qidian5_cn_5e9815a16b944179.jpg"  alt="banner" ></a></li>
-        <li><a href="javascript:;"><img src="images/1-1ZG5141GQ30.jpg"  alt="banner" ></a></li>
-        <li><a href="javascript:;"><img src="images/1-1ZFQG253X2.jpg"  alt="banner" ></a></li>
+        <li><a href="javascript:;"><img src="../assets/images/qidian5_cn_5e9815a16b944179.jpg"  alt="banner" ></a></li>
+        <li><a href="javascript:;"><img src="../assets/images/1-1ZG5141GQ30.jpg"  alt="banner" ></a></li>
+        <li><a href="javascript:;"><img src="../assets/images/1-1ZFQG253X2.jpg"  alt="banner" ></a></li>
       </ul>
     </div>
     <a class="prev" href="javascript:void(0)"></a>
@@ -27,9 +27,9 @@
     </div>
     <div class="bd">
       <ul>
-        <li><a href="#"><img src="images/1-1P30F9224X56.jpg"  /></a></li>
-        <li><a href="#"><img src="images/1-1ZG5141GQ30.jpg" /></a></li>
-        <li><a href="#"><img src="images/1-1ZFQG253X2.jpg" /></a></li>
+        <li><a href="#"><img src="../assets/images/1-1P30F9224X56.jpg"  /></a></li>
+        <li><a href="#"><img src="../assets/images/1-1ZG5141GQ30.jpg" /></a></li>
+        <li><a href="#"><img src="../assets/images/1-1ZFQG253X2.jpg" /></a></li>
       </ul>
     </div>
   </div>
@@ -55,7 +55,7 @@
             <div class="col-md-6">
 
               <div class="about-content">
-                <img src = "images/gongshijianjie.png"  />
+                <img src = "../assets/images/gongshijianjie.png"  />
               </div>
             </div>
 
@@ -124,7 +124,7 @@
               <ul class="sublist">
                 <div class="media-body">
                   <a href="javascript:;"><p class="name">技术资料</p></a>
-                  <p class="text"><img src="images/gyxj_jszl1.png"/></p>
+                  <p class="text"><img src="../assets/images/gyxj_jszl1.png"/></p>
                   <a href="javascript:;"><p class="name">施工工艺</p></a>
                   <p class="text">·基层处理--地面清洗--弹线--打灰饼、冲筋--搅拌、平铺隔音胶凝。</p>
                   <p class="text">·涂刷界面剂：喷涂一遍专用界面剂，也可选择滚涂进一步增强与基面的粘结性能；</p>
@@ -165,10 +165,10 @@
           <div class="pictureContainer slideImgBox" id="pictureContainer">
             <div class="sildeimg bd">
               <ul class="slideshow" id="slidesImgs">
-                <li><a href="javascript:;"><img src="images/ctxx_geyincailiao.png" alt="隔音胶凝砂浆材料" width="100%" border="0"></a><span><a href="javascript:;">隔音胶凝砂浆材料</a></span></li>
-                <li><a href="javascript:;"><img src="images/jtzc_geyintuliao1.png" alt="隔音涂料介绍" width="100%" border="0"></a><span><a href="javascript:;">隔音涂料介绍</a></span></li>
-                <li><a href="javascript:;"><img src="images/jtzc_geyinbaan1.png" alt="轻质隔墙板介绍" width="100%" border="0"></a><span><a href="javascript:;">轻质隔墙板介绍</a></span></li>
-                <li><a href="javascript:;"><img src="images/jtzc_qianban1.png" alt="墙板安装辅材" width="100%" border="0"></a><span><a href="javascript:;">墙板安装辅材</a></span></li>
+                <li><a href="javascript:;"><img src="../assets/images/ctxx_geyincailiao.png" alt="隔音胶凝砂浆材料" width="100%" border="0"></a><span><a href="javascript:;">隔音胶凝砂浆材料</a></span></li>
+                <li><a href="javascript:;"><img src="../assets/images/jtzc_geyintuliao1.png" alt="隔音涂料介绍" width="100%" border="0"></a><span><a href="javascript:;">隔音涂料介绍</a></span></li>
+                <li><a href="javascript:;"><img src="../assets/images/jtzc_geyinbaan1.png" alt="轻质隔墙板介绍" width="100%" border="0"></a><span><a href="javascript:;">轻质隔墙板介绍</a></span></li>
+                <li><a href="javascript:;"><img src="../assets/images/jtzc_qianban1.png" alt="墙板安装辅材" width="100%" border="0"></a><span><a href="javascript:;">墙板安装辅材</a></span></li>
               </ul>
             </div>
             <div class="slidebar " id="slideBar">
